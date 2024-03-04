@@ -1,10 +1,11 @@
-import { Stack } from "expo-router"
-import React from 'react'
+import { Tabs } from "expo-router";
+import React from "react";
 
-const StackLayout = () => {
-    return(
-        <Stack>
-           <Stack.Screen name="Home" />
-        </Stack>
-    )
-}
+export default () => {
+  return (
+    <Tabs>
+      <Tabs.Screen name="home " />
+      <Tabs.Screen name="list " />
+    </Tabs>
+  );
+};
