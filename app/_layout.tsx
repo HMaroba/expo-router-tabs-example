@@ -11,7 +11,10 @@ export default function Layout() {
         headerTintColor: "black",
         headerTitleStyle: {
           fontWeight: "bold",
+          fontSize: 22
+       
         },
+        headerTitleAlign: "center",
       }}
     />
   );
