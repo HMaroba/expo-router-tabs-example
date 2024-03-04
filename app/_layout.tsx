@@ -15,6 +15,7 @@ export default function Layout() {
        
         },
         headerTitleAlign: "center",
+        // headerShown: false,
       }}
     />
   );
