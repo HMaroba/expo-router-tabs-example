@@ -1,9 +1,8 @@
 import { View, Text } from "react-native";
-import { Stack, useLocalSearchParams, useRouter } from "expo-router";
+import { Link, Stack, useLocalSearchParams, useRouter } from "expo-router";
 
 export default function Details() {
   const router = useRouter();
-  
 
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
@@ -19,6 +18,13 @@ export default function Details() {
       >
         Update the title
       </Text>
+
+      <Link
+        href={"/dashboard"}
+        style={{ fontSize: 18, marginTop: 10, color: "blue" }}
+      >
+        Go to Dashboard
+      </Link>
     </View>
   );
 }
