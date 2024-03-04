@@ -2,7 +2,7 @@ import { Link } from "expo-router";
 import React from "react";
 import { Text, View } from "react-native";
 
-export default function List() {
+export default function ListPage() {
   return (
     <View style={{ justifyContent: "center", alignItems: "center", flex: 1 }}>
       <Link href={"/list/1"}>New 1</Link>

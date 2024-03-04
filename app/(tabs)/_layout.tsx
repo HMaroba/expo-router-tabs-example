@@ -6,9 +6,10 @@ export default () => {
     <Tabs>
       <Tabs.Screen
         name="home "
+
         options={{
-          headerTitle: "Home Page",
-        }}
+            headerShown: false,
+          }}
       />
       <Tabs.Screen name="list " />
     </Tabs>
