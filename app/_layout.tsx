@@ -8,3 +8,5 @@ const StackLayout = () => {
     </Stack>
   );
 };
+
+export default StackLayout;
