@@ -1,17 +1,17 @@
 import { Stack } from "expo-router";
-import React from "react";
 
-const StackLayout = () => {
+export default function Layout() {
   return (
-    <Stack>
-      <Stack.Screen
-        name="(tabs)"
-        options={{
-          headerShown: false,
-        }}
-      />
-    </Stack>
+    <Stack
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: "#f4511e",
+        },
+        headerTintColor: "#fff",
+        headerTitleStyle: {
+          fontWeight: "bold",
+        },
+      }}
+    />
   );
-};
-
-export default StackLayout;
+}
